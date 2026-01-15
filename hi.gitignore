@@ -1,0 +1,8 @@
+# OS
+.DS_STORE
+
+# Editor
+.vscode/
+.idea/
+
+# Local Data (optional, but recommended)

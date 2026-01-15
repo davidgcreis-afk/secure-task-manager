@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #38bdf8;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #94a3b8;
+}
+
+.card {
+    background-color: #020617;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.15);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+label {
+    font-size: 1rem;
+    color: #cbd5f5;
+}
+input {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+input:focus {
+    outline: 2px solid #38bdf8;
+}
+button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    background: #38bdf8;
+    color: #020617;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover {
+    background: #0ea5e9;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.dashboard-header h1 {
+    font-size: 2rem;
+    color: #38bdf8;
+}
+.dashboard {
+    max-width: 600px;
+}
+.task-input {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.task-input input {
+  flex: 1;
+}
+
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border-left: 4px solid #38bdf8;
+}
+.task-item button {
+  background: transparent;
+  color: #f87171;
+  font-weight: bold;
+}
+
+.task-item button:hover {
+  color: #ef4444;
+}
